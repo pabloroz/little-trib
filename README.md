@@ -9,6 +9,7 @@ To setup clone the repo and run make setup
 
 then run dep install
 
+Also need to have redis installed and running
 
 # Console
 
