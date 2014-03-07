@@ -16,3 +16,6 @@ server:
 
 test:
 	env $$(cat env.sh) cutest test/*/*_test.rb
+
+seed:
+	env $$(cat env.sh) ruby -r ./app -e "Admin.create(email: 'admin@example.com', password: 'password')"
